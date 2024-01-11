@@ -36,3 +36,6 @@ let daysToTheMoon = (hoursToTheMoon / 24);
 
 let spaceMissionToTheMoon = nameOfSpaceShuttle + " will take " + daysToTheMoon + " days to reach The Moon!";
 console.log(spaceMissionToTheMoon);
+
+
+
