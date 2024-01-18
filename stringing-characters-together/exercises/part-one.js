@@ -28,5 +28,5 @@ console.log(num);
 if (String(num).includes(".")) {
     console.log(String(num).length-1);
 } else {
-    console.log(num.length);
+    console.log(String(num).length);
 }
