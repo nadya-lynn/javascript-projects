@@ -9,6 +9,10 @@
 // 5. Use console.log(reverseCharacters(myVariableName)); to call the function and verify that it correctly reverses the characters in the string.
 // 6. Optional: Use method chaining to reduce the lines of code within the function.
 
+function reverseCharacters(strToReverse) {
+    return strToReverse.split("").reverse().join("");
+}
+console.log(reverseCharacters("AmazingWorld!"));
 // Part Two: Reverse Digits
 
 // 1. Add an if statement to reverseCharacters to check the typeof the parameter.
@@ -17,7 +21,22 @@
 // 4. Return the reversed number.
 // 5. Be sure to print the result returned by the function to verify that your code works for both strings and numbers. Do this before moving on to the next exercise.
 
-// Part Three: Complete Reversal
+
+if (reverseCharacters === typeof(String)) {
+  return reverseCharacters;
+  console.log()
+} else if (reverseCharacters === typeof (Number)) {
+  return (typeof String(reverseCharacters)).split().reverse().(typeof(Number));
+}
+console.log(reverseCharacters(1234))
+
+
+
+    
+    
+    
+    
+    // Part Three: Complete Reversal
 
 // 1. Define and initialize an empty array.
 // 2. Loop through the old array.
