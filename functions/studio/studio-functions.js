@@ -21,20 +21,75 @@ console.log(reverseCharacters("AmazingWorld!"));
 // 4. Return the reversed number.
 // 5. Be sure to print the result returned by the function to verify that your code works for both strings and numbers. Do this before moving on to the next exercise.
 
+let add = function(a, b) {
+  return a + b;
+};
 
-if (reverseCharacters === typeof(String)) {
-  return reverseCharacters;
-  console.log()
-} else if (reverseCharacters === typeof (Number)) {
-  return (typeof String(reverseCharacters)).split().reverse().(typeof(Number));
+console.log(add(1, 1));
+///
+    
+ let reverse = function(str) {
+    let lettersArray = str.split("");
+    let reveversedLettersArray = lettersArray.reverse();
+    return reveversedLettersArray.join("");
+ };   
+
+console.log(reverse("Code"));
+///
+
+let f1 = function(str) {
+  return str + str;
+};
+
+let f2 = f1;
+console.log(f2("abcd"));
+///
+
+/*function printMessage() {
+  console.log("The future is now!");
 }
-console.log(reverseCharacters(1234))
+
+setTimeout(printMessage, 5000);*/
+
+///
+let nums = [3.14, 42, 4811];
+
+// TODO: Write a mapping function
+// and pass it to .map()
+let halved = nums.map(function (n) {
+return n/2;
+});
+
+console.log(halved);
+
+///
+
+let names = ["Chris", "Jim", "Sally", "Blake", "Paul", "John", "Courtney", "Carly"];
+
+// TODO: Write a mapping function
+// and pass it to .map()
+let firstInitials = names.map(function (k) {
+  return k.slice(0,1);
+});
+
+console.log(firstInitials);
+
+
+///
+
+let logger = function(errorMsg) {
+  console.log("ERROR: " + errorMsg);
+};
+
+if (userInput < 0) {
+
+  ____________("Invalid input");
+};
+
+logger('Invalid input');
 
 
 
-    
-    
-    
     
     // Part Three: Complete Reversal
 
