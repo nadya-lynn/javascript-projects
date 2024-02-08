@@ -6,6 +6,7 @@ function makeLine(size) {
     return line;
   }
   
+  console.log(makeLine(5));
 
   function makeRectangle(width, height) {
     let rectangle = '';
@@ -15,6 +16,19 @@ function makeLine(size) {
     return rectangle.slice(0, -1);
   }
 
+  console.log(makeRectangle(4,6));
+
+
+
+  function makeIsoscelesTriangle(height) {
+    let triangle = '';
+    for (let i = 0; i < height; i++) {
+      triangle += (makeSpaceLine(height - i - 1, 2*i + 1) + '\n');
+    }
+    return triangle.slice(0, -1);
+  }
+
+  
   function makeDownwardStairs(height) {
     let stairs = '';
     for (let i = 0; i < height; i++) {

@@ -1,0 +1,111 @@
+/*let comaSeparatedValues = "Smith, Jane, 100 Cherry Blossom Lane";
+let values = comaSeparatedValues.split(",");
+console.log(values);
+
+let stringval = String(42);
+console.log(stringval);*/
+
+///
+
+/*let names = ["Lena", "James", "Julio"];
+
+for (let i = 0; i < names.length; i++) {
+    console.log(names[i]);
+}
+function printNames(names) {
+    for (let i = 0; i < names.length; i++) {
+        console.log(names[i]);
+    }
+}
+///
+function sumToN(n) {
+    let sum = 0;
+    for (let i = 0; i <= n; i++) {
+        sum += i;
+    }
+    return sum;
+}
+
+console.log(sumToN(3));
+
+function plusTwo(num) {
+    return num + 2;
+}
+
+let a = 2;
+
+for (let i = 0; i < 4; i++) {
+    a = plusTwo(a);
+}
+
+console.log(a);
+
+
+
+function repeater(str) {
+    let repeated = str + str;
+    console.log(repeated);
+}
+
+repeater('Bob');
+
+function repeater(str) {
+    let repeated = str + str;
+    console.log(repeated);
+}
+
+repeater('Bob');
+
+function removeHyphens(str) {
+    let strWithoutHyphens = ''
+
+    for (let i = 0; i < str.length; i++) {
+    if (str[i] !== '-') {
+        strWithoutHyphens += str[i];
+    }
+    }
+    console.log(strWithoutHyphens);
+    return strWithoutHyphens;
+   
+}
+
+let launchCodePhone = "314-254-0107";
+
+console.log(removeHyphens(launchCodePhone));
+
+
+
+let message = "Hello, World!";
+
+function printMessage() {
+    console.log(message);
+}
+
+printMessage();
+message = "Goodbye";
+printMessage();*/
+
+let num = 42;
+
+function isEven (num) { 
+    return num % 2 === 0; 
+}
+
+console.log(isEven(43));
+
+
+let nums = [3.14, 42, 4811];
+
+let halved = nums.map(function (n) {
+return n/2;
+});
+
+console.log(halved);
+
+let names = ["Chris", "Jim", "Sally", "Blake", "Paul", "John", "Courtney", "Carly"];
+
+let firstInitials = names.map(function (k){ 
+    return k.slice(0,1);
+});
+
+console.log(firstInitials);

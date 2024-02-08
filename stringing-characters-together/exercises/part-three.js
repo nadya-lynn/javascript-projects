@@ -20,3 +20,5 @@ console.log(`The abbreviation for ${language} is ${initials}`);
 //1. Use the string methods you know to print 'Title Case' from the string 'title case'.
 
 let notTitleCase = 'title case';
+notTitleCase.slice("t").replace("T")
+console.log(notTitleCase);

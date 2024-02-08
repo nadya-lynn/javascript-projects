@@ -21,23 +21,6 @@ let salamander = {
 
 // Start an animal race!
 	
-let superChimpOne = {
-   name: "Chad",
-   species: "Chimpanzee",
-   mass: 9,
-   age: 6,
-   astronautID: 1,
-   move: function () {return Math.floor(Math.random()*11)}
-};
-
-let salamander = {
-   name: "Lacey",
-   species: "Axolotl Salamander",
-   mass: 0.1,
-   age: 5,
-   astronautID: 2,
-   move: function () {return Math.floor(Math.random()*11)}
-};
 
 let superChimpTwo = {
    name: "Brad",
@@ -69,4 +52,22 @@ let waterBear = {
 let crew = [superChimpOne, superChimpTwo, salamander, dog, waterBear];
 
 
-let crew = [superChimpOne, superChimpTwo, salamander, dog, waterBear]
+
+function fitnessTest(candidates){
+   let results = [], numSteps, turns;
+   for (let i = 0; i < candidates.length; i++){
+       numSteps = 0;
+       turns = 0;
+       while(numSteps < 20){
+       numSteps += candidates[i].turns();
+       turns++;
+       }
+       results.push(`${candidates[i].name} took ${turns} turns to take 20 steps.`);
+   }
+   return results;
+  }
+  fitnessTest(crew).map(results => {
+   console.log(fitnessTest(results));
+  });
+  
+console.log(results);

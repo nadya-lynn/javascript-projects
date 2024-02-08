@@ -77,16 +77,9 @@ console.log(firstInitials);
 
 ///
 
-let logger = function(errorMsg) {
-  console.log("ERROR: " + errorMsg);
-};
+let num = Number("42");
+console.log("The variable num is of type", typeof num, "and has value", num);
 
-if (userInput < 0) {
-
-  ____________("Invalid input");
-};
-
-logger('Invalid input');
 
 
 

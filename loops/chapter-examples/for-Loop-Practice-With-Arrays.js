@@ -4,3 +4,4 @@ let familyMembers = ["Bee Cee", "Nochka", "Zadov", "Naducik"];
 for (i = 0; i < familyMembers.length; i++ ) {
     console.log(familyMembers[i]);
 }
+
