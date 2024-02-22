@@ -1,1 +1,17 @@
 /* Start adding your styling below! */ 
+body 
+{
+    background-color: rgb(0, 255, 204);
+    text-align: center;
+}
+p 
+{
+    color: rgb(0, 30, 128);
+}
+h1 
+{
+    font-size: 36px;
+}
+#list-color {
+    color: blueviolet;
+} 
